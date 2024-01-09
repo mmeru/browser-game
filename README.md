@@ -22,6 +22,6 @@ The game logic is implemented in JavaScript (`script.js`) and includes the follo
 - Clicking on a circle increments the player's score and replaces the circle with a new one.
 - Calculates accuracy depending on if a circle is clicked or not.
 - The game ends after 10 seconds, displaying the final score and accuracy.
-- Dynamically change the "Play" button to "Restart" while game is active or "Play again" when game ends.
+- Dynamically changes the "Play" button to "Restart" while game is active or "Play Again" when game ends.
   
 Have fun playing Circle Click!
