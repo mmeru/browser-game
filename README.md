@@ -11,7 +11,7 @@ The game consists of the following components:
 - **Game Container (`game-container`):** The main container that holds the game elements.
 - **Score Display (`score`):** Displays the player's current score, accuracy percentage, and remaining time.
 - **Game Area (`game-area`):** The area where circles appear and where the player interacts by clicking.
-- **Start/Restart Button (`start-button`):** Initiates the game or restarts it after it ends.
+- **Start/Restart Button (`start-button`):** Initiates the game or restarts it.
 
 ## Game Logic
 
@@ -22,6 +22,6 @@ The game logic is implemented in JavaScript (`script.js`) and includes the follo
 - Clicking on a circle increments the player's score and replaces the circle with a new one.
 - Calculates accuracy depending on if a circle is clicked or not.
 - The game ends after 10 seconds, displaying the final score and accuracy.
-- The player can restart the game by clicking the "Restart" button.
+- Dynamically change the "Play" button to "Restart" while game is active or "Play again" when game ends.
   
 Have fun playing Circle Click!
